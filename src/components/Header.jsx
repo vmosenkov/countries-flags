@@ -19,7 +19,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled(Link).attrs({
-  to: '/',
+  to: '/countries-flags/',
 })`
   color: var(--color-text);
   font-size: var(--fw-sm);
