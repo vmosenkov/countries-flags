@@ -1,5 +1,7 @@
 # Frontend Mentor - REST Countries API with color theme switcher solution
 
+### [Site link](https://vmosenkov.github.io/countries-flags/)
+
 This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ### The challenge
@@ -31,6 +33,8 @@ Users should be able to:
 - [Normalize.css](https://necolas.github.io/normalize.css/) - A modern alternative to CSS resets - v8.0.1"
 
 # API стран REST с переключением цветовой темы.
+
+### [Рабочий сайт](https://vmosenkov.github.io/countries-flags/)
 
 Это решение для [API REST Countries с переключателем цветовой темы challenge на Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) Задачи Frontend Mentor помогут вам улучшить свои навыки программирования, создавая реалистичные проекты.
 
