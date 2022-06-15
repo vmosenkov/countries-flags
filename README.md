@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Frontend Mentor - REST Countries API with color theme switcher solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a solution to the [REST Countries API with color theme switcher challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Available Scripts
+### The challenge
 
-In the project directory, you can run:
+Users should be able to:
 
-### `npm start`
+- See all countries from the API on the homepage
+- Search for a country using an `input` field
+- Filter countries by region
+- Click on a country to see more detailed information on a separate page
+- Click through to the border countries on the detail page
+- Toggle the color scheme between light and dark mode *optional*
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Built with
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- gap grid-gap
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library - v18.1.0
+- [ReactDOM](https://reactjs.org/docs/react-dom.html) - The react-dom package provides DOM-specific methods that can be used at the top level of your app and as an escape hatch to get outside the React model if you need to. - v18.1.0
+- [React Icons](https://react-icons.github.io/react-icons/) - Include popular icons in your React projects easily with react-icons, which utilizes ES6 imports that allows you to include only the icons that your project is using. - v4.4.0
+- [React Router](https://v5.reactrouter.com/core/guides/quick-start) - React Router is a lightweight, fully-featured routing library for the React JavaScript library. React Router runs everywhere that React runs; on the web, on the server using node.js, and on React Native. - v6.3.0
+- [React Router DOM] - The react-router-dom package contains bindings for using React Router in web applications - v5.2.0
+- [React Select](https://react-select.com/home) - A flexible and beautiful Select Input control for ReactJS with multiselect, autocomplete, async and creatable support. - v5.3.2
+- [Styled Components](https://styled-components.com/) - For styles - v5.3.5
+- [Axios](https://axios-http.com) - Promise based HTTP client for the browser and node.js - "v0.27.2", 
+- [Normalize.css](https://necolas.github.io/normalize.css/) - A modern alternative to CSS resets - v8.0.1"
 
-### `npm test`
+# API стран REST с переключением цветовой темы.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Это решение для [API REST Countries с переключателем цветовой темы challenge на Frontend Mentor](https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca) Задачи Frontend Mentor помогут вам улучшить свои навыки программирования, создавая реалистичные проекты.
 
-### `npm run build`
+### Челендж
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Пользователи должны иметь возможность:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Видеть все страны из API на главной странице
+- Поиск страны с помощью input полю
+- Фильтровать страны по регионам
+- При нажатии на страну, можно увидеть более подробную информацию на отдельной странице
+- Переход к пограничным странам по тегам на странице сведений
+- Переключение цветовой схемы между светлой и темной темой *необязательно*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
