@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { useState, useEffect } from "react";
 import { IoMoonOutline, IoMoon } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 import { Container } from './Container';
 
@@ -14,10 +15,11 @@ const Wrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   padding: 2rem 0;
+  width: 100%;
 `;
 
-const Title = styled.a.attrs({
-  href: '/',
+const Title = styled(Link).attrs({
+  to: '/',
 })`
   color: var(--color-text);
   font-size: var(--fw-sm);
@@ -31,6 +33,9 @@ const ThemeSwitcher = styled.div`
   // font-weight: var(--fw-bold)
   text-transform: capitalize;
   cursor: pointer;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 

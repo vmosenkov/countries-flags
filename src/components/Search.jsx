@@ -9,15 +9,16 @@ const InputContainer = styled.label`
  align-items: center;
  border-radius: var(--radius);
  box-shadow: var(--shadow);
- width: 500;
+ width: 100%;
  margin-bottom: 1.5rem;
 
   @media (min-width: 767px) {
    margin-bottom: 0rem;
+   width: 300px;
 
   @media (max-width: 767px) {
    margin-bottom: 1.5rem;
-   width: 100%;
+   width: 300px;
  }
 `;
 
