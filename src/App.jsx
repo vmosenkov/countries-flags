@@ -19,7 +19,7 @@ function App() {
       <Header />
       <Main>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/countries-flags/">
             <HomePage countries={countries} setCountries={setCountries} />
           </Route>
           <Route path="/country/:name" component={Details} />
